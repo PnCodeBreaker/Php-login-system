@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+	<style>
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+}		
+
+ body {
+ 	 background: url(background.jpg) no-repeat;
+ 	 background-size: cover;
+ 	 background-position: center;
+ 	 height: 100vh;
+
+ }
+
+.overlay {
+	  background: black;
+	  height: 100vh;
+	  width: 100%;
+	  opacity: 0.8;
+}
+
+.overlay .card {
+	   background: none;
+	   width: 90%;
+	   height: 200px;
+	   top: 50%;
+	   left: 50%;
+	   position: relative;
+	   transform: translate(-50%,-100%);
+	   color: white;
+	  
+	  
+}
+
+.icon {
+	    height: 40px;
+	    width: 40px;
+	    background: none;
+	    border-radius: 50%;
+	    color: #008891;
+	    outline: none;
+	    opacity: 1.0;
+	    border: 2px solid none;
+	    text-align: center;
+	    line-height: 45px;
+}
+
+input[type="email"] {
+	    height: 40px;
+	    width: 100%;
+	    background: none;
+	    border-style: none;
+	    border: 2px solid #008891;
+	    color: white;
+	    outline: none;
+	    border-radius: 50px;
+	    font-size: 15px;
+}
+
+input[type="password"] {
+	    height: 40px;
+	    width: 100%;
+	    background: none;
+	    border-style: none;
+	    border: 2px solid #008891;
+	    color: white;
+	    outline: none;
+	    border-radius: 50px;
+	    font-size: 15px;
+}
+
+input[type="submit"] {
+	    height: 40px;
+	    width: 101%;
+	    background: #008891;
+	    border-radius: 50px;
+	    color: white;
+	    outline: none;
+	    opacity: 1.0;
+	    border: none;
+	    font-size: 15px;
+}
+
+
+.signup {
+	    height: 40px;
+	    width: 101%;
+	    background: #008891;
+	    border-radius: 50px;
+	    color: white;
+	    outline: none;
+	    opacity: 1.0;
+	    border: none;
+	    text-align: center;
+	    line-height: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+table td{
+	  padding: 8px;
+	}
+
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="overlay">
+		<div class="card"><center>
+			<h2>LOGO</h2><br><br>
+		<form>
+		<table width="100%">
+	    <!---------Error message---->
+		<tr>
+			<td><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="24" height="24"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#008891"><path d="M14.33333,28.66667v9.6862l14.33333,8.98633l57.33333,35.93132l57.33333,-35.67936l14.33333,-8.93034v-9.99414zM14.33333,55.27572v88.05762h143.33333v-87.79167l-71.65267,43.99382z"></path></g></g></svg></div></td>
+			<td><input type="email" name="" placeholder="Email"></td>
+		</tr>
+		<tr>
+    	<td><div class="icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="24" height="24"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#008891"><path d="M106.06667,17.2c-26.91227,0 -48.73333,21.82107 -48.73333,48.73333c0,5.97582 1.13319,11.67424 3.10183,16.96484l-43.23516,43.23516v28.66667h28.66667v-17.2h17.2v-17.2h17.2l8.83516,-8.83516c5.29061,1.96863 10.98902,3.10183 16.96484,3.10183c26.91227,0 48.73333,-21.82107 48.73333,-48.73333c0,-26.91227 -21.82107,-48.73333 -48.73333,-48.73333zM117.53333,40.13333c7.91773,0 14.33333,6.4156 14.33333,14.33333c0,7.91773 -6.4156,14.33333 -14.33333,14.33333c-7.91773,0 -14.33333,-6.4156 -14.33333,-14.33333c0,-7.91773 6.4156,-14.33333 14.33333,-14.33333z"></path></g></g></svg></div></td>
+			<td><input type="password" name="" placeholder="Password"></td>
+            </tr>
+            <tr>
+		     <td colspan="2"><input type="submit" name="" value="Login"></td>
+		 </tr>
+		 <tr>
+		     <td colspan="2"><center>Don't have an account?</center></td>
+		 </tr>
+		 <tr>
+		     <td colspan="2"><a href="signup.html"><div class="signup">Signup</div></a></td>
+		 </tr>
+		</table>
+        </form>
+	 </center>
+         <br><br>
+
+          <center><font color="#008891">By continuing you indicate that you are agree and have read our <a href="#">terms and conditions</a> and <a href="#">Privacy policy...</a><br><br></font>
+
+            <font color="white">   ©Copyright Ninjablog 2020
+
+          </center></font>
+      </div></div>
+</body>
+</html>
